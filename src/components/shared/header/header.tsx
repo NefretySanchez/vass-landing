@@ -89,8 +89,11 @@ const HeaderComponent = () => {
                 <li className="nav-item">
                   <a className="nav-link ">EN</a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link ">Search</a>
+                <li className="nav-item nav-item-search">
+                  <a className="nav-link ">
+                    {" "}
+                    <FontAwesomeIcon color="#FFFFFF" icon={faSearch} />
+                  </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link ">Talento</a>
