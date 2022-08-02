@@ -1,0 +1,36 @@
+$tablet-width: 992px
+$cellphone-width: 450px
+
+.header-background
+    background: url('../img/contacto.jpeg')
+    height: 75vh
+    width: 100%
+    background-size: cover
+
+.navbar-menu .nav-link
+    color: #FFFFFF
+
+.headline
+    position: absolute
+    top: 60vh
+    right: 10%
+    h1
+        font-size: 80px
+        color: #FFFFFF
+        opacity: 0.5
+        text-transform: uppercase
+        @media screen and (max-width: $cellphone-width) 
+            font-size: 50px
+
+.nav-link
+    color: #FFFFFF
+    font-weight: 600
+
+nav.navbar.fixed-top.navbar-expand-lg.bg-transparent 
+    @media screen and (max-width: $tablet-width) 
+        background: #141414 !important
+
+.navbar-toggler-icon-white
+    background-image: url('../img/menu-icon.svg')
+
+
